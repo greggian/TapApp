@@ -1,0 +1,14 @@
+//
+// Prefix header for all source files of the 'TapApp' target in the 'TapApp' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+	#import "Three20/Three20.h"
+	#import "Three20/Three20+Additions.h"
+
+	#import "Atlas.h"	
+	#import "TTTableViewDelegate+URLAdditions.h"
+#endif
